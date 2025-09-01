@@ -15,7 +15,7 @@ This end-to-end pipeline reflects how real-world company data can be transformed
 ---
 
 ## 📂 Project Structure
-- `sales_data_sample.csv` → Original raw dataset  
+- `Raw Sales Dataset.csv` → Original raw dataset  
 - `Sales Analysis.sql` → SQL script for data cleaning, transformation, and analysis queries  
 - `Clean_Sales.csv` → Final cleaned dataset ready for visualization  
 - `Tableau Work.twbx` → Tableau workbook with dashboards and visualizations  
