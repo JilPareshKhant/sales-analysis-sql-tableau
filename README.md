@@ -1,6 +1,6 @@
 # 📊 Sales Data Analysis Project
 
-## 📌 Project Overview
+## Project Overview
 This project demonstrates a complete data analytics workflow starting from raw sales data to generating actionable business insights through SQL data cleaning, transformation, and visualization in Tableau.  
 
 The main goals were to:  
@@ -14,7 +14,7 @@ This end-to-end pipeline reflects how real-world company data can be transformed
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 - `Raw Sales Dataset.csv` → Original raw dataset  
 - `Sales Analysis.sql` → SQL script for data cleaning, transformation, and analysis queries  
 - `Clean Sales Dataset.csv` → Final cleaned dataset ready for visualization  
@@ -23,31 +23,31 @@ This end-to-end pipeline reflects how real-world company data can be transformed
 - `Tableau Dashboard 2.png` → Tableau Visualization
 ---
 
-## 🧹 Data Cleaning & Transformation (SQL)
+## Data Cleaning & Transformation (SQL)
 Key steps performed in the SQL script:  
 
-### 🔍 Data Quality Checks  
+### Data Quality Checks  
 - Counted total records  
 - Checked for missing values and duplicates  
 
-### 🧼 Cleaning Rules Applied  
+### Cleaning Rules Applied  
 - Removed rows with negative/zero prices or quantities  
 - Kept only completed (Shipped) orders  
 - Standardized categorical values (e.g., `SHIPPED` → `Shipped`)  
 - Trimmed extra spaces in text fields  
 
-### 📏 Data Standardization  
+### Data Standardization  
 - Renamed columns to a consistent format  
 - Converted order dates into proper SQL DATE format  
 - Truncated numeric values to 2 decimal places  
 
-### ⚙️ Feature Engineering  
+### Feature Engineering  
 - Created a new field: `line_total_revenue = quantity × unit_price`  
 - Added KPIs for total revenue, average order value, top customers, and best-selling product lines  
 
 ---
 
-## 📊 Analysis Queries (SQL)
+## Analysis Queries (SQL)
 Some key business questions addressed:  
 - Total company revenue  
 - Best-selling product lines  
@@ -61,7 +61,7 @@ Some key business questions addressed:
 
 ---
 
-## 📈 Visualization (Tableau)
+## Visualization (Tableau)
 The cleaned dataset was imported into Tableau to create interactive dashboards:  
 - **Sales Overview Dashboard** → Revenue, Orders, Customers, AOV  
 - **Product Line Performance** → Best-selling categories by revenue  
