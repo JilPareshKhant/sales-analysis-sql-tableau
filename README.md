@@ -72,7 +72,7 @@ These dashboards allow decision-makers to track company performance, identify gr
 
 ---
 
-## 🛠 Skills Demonstrated
+## Skills Demonstrated
 - **SQL (MySQL):** Data cleaning, transformation, EDA queries  
 - **Data Preprocessing:** Handling duplicates, missing values, inconsistent formats  
 - **Tableau:** Building dashboards, visual storytelling, KPIs, and trend analysis  
